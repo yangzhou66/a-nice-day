@@ -1,4 +1,4 @@
-git  使用
+﻿git  使用
 
 
 先下客户端。 再建.ssh获取密码，为了使主机链接自己的git账号，
@@ -12,5 +12,12 @@ git init 或者克隆然后操做
 新建完之后操作
 先用ssh克隆然后操作   最后commit
 
-git clone git@github.com:xxx/xxx.git2.对需要删除的文件、文件夹进行如下操作:git rm test.txt  (删除文件)git rm -r test    (删除文件夹)3.提交修改git commit -m "Delete some files."4.将修改提交到远程仓库的xxx分支:git push origin xxx
+git clone git@github.com:xxx/xxx.git2.对需要删除的文件、文件夹进行如下操作:git rm test.txt
 
+
+
+  (删除文件)git rm -r test    (删除文件夹)3.提交修改git commit -m "Delete some files."4.将修改提交到远程仓库的xxx分支:git push origin xxx
+
+
+
+下了一个tortoisegit 64 感觉还可以，来试一下
