@@ -1,0 +1,16 @@
+git  使用
+
+
+先下客户端。 再建.ssh获取密码，为了使主机链接自己的git账号，
+链接好了可以链接远程命令 
+建立工作区
+git init 或者克隆然后操做
+或者直接按他的提示命令新建readme
+然后直接上传文件
+
+
+新建完之后操作
+先用ssh克隆然后操作   最后commit
+
+git clone git@github.com:xxx/xxx.git2.对需要删除的文件、文件夹进行如下操作:git rm test.txt  (删除文件)git rm -r test    (删除文件夹)3.提交修改git commit -m "Delete some files."4.将修改提交到远程仓库的xxx分支:git push origin xxx
+
