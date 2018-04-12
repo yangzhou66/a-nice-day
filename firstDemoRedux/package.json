@@ -1,21 +1,78 @@
 {
-  "name": "firstDemoWebpack",
-  "version": "0.0.1",
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server --open",
-    "server": "node server.js"
+    "build": "webpack --env.dev --env.platform=gome --env.prod --progress",
+    "prod": "webpack --env.prod --progress",
+    "start": "webpack-dev-server"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "bootstrap-slider": "^10.0.0",
+    "change-case": "^3.0.1",
+    "classnames": "^2.2.5",
+    "deepmerge": "^2.0.1",
+    "es6-map": "^0.1.5",
+    "jquery": "^3.2.1",
+    "moment": "^2.19.2",
+    "object-assign": "^4.1.1",
+    "promise": "^8.0.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dev-utils": "^3.0.2",
+    "react-dom": "^15.6.1",
+    "react-error-overlay": "^1.0.9",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-slider": "^0.9.0",
+    "react-transition-group": "^2.2.1",
     "redux": "^3.7.2",
-    "webpack": "^4.5.0"
+    "swiper": "^4.1.0",
+    "whatwg-fetch": "2.0.3",
+    "zeptojs": "^1.1.4"
   },
   "devDependencies": {
-    "clean-webpack-plugin": "^0.1.19",
-    "css-loader": "^0.28.11",
-    "express": "^4.16.3",
-    "html-webpack-plugin": "^3.2.0",
-    "style-loader": "^0.20.3",
-  "webpack-cli": "^2.0.14"
-}
+    "autoprefixer": "7.1.1",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react-app": "^3.0.2",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-webpack-plugin": "^4.3.1",
+    "css-loader": "^0.28.0",
+    "eslint": "4.10.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-flowtype": "2.39.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "7.4.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.1",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.28.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "postcss-flexbugs-fixes": "3.0.0",
+    "postcss-loader": "2.0.6",
+    "react-styleguidist": "^5.5.7",
+    "style-loader": "^0.16.1",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
 }
