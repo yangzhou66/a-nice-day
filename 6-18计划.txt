@@ -1,0 +1,15 @@
+javascript 高级程序设计 +javascript 权威指南
+图灵程序设计丛书：数据结构与算法
+JavaScript设计模式
+深入浅出node.js
+css3图解  
+图解http
+javscript精粹
+
+
+都得写出笔记
+
+上面看完，完成之前未完成网站
+
+
+
