@@ -91,7 +91,7 @@ div div:first-of-type, div div::nth-of-type(2n+1) ,div div::nth-of-type(1) 查�
    line-height   文本行高
    text-transform 定义文本大小写   
     text-shadow   文本阴影效果 
-	white-space  定义文字与文本直接空白符间距   nowrap (文本强制不换行)  inherit 继承父元素该值  pre 文本空白处被浏览器扣留 与<pre> 标签相似
+	white-space  定义文字与文本直接空白符间距   nowrap (文本强制不换行)  inherit 继承父元素该值  pre 文本空白处被浏览器扣留 与"pre" 标签相似
 	direction  文本流入方向   ltr（默认值）   rtl(文本从右向左流入)
    
    **溢出文本效果**
@@ -113,6 +113,66 @@ div div:first-of-type, div div::nth-of-type(2n+1) ,div div::nth-of-type(1) 查�
    
    盒模型一般为 content padding margin border
    
+   **盒模型一般被分为两种**
+   1、w3c的标准和模型（常用）
+   外盒element空间高度 =内容高度 +内距 + 边框 +外距
+   内盒element空间高度=内容高度 +内距 + 边框（height为内容高度）
+   2、ie6版本以下的盒模型
+    外盒element空间高度 =内容高度  +外距
+    内盒element空间高度=内容高度
+	
+	由上面可以看下，在ie6里面给元素加padding跟margin一样，都是向外延申
+	
+	**box-zizing 一个盒模型属性，定义盒模型尺寸解析方式**
+	box-sizing :content-box |border-box |inherit
+	默认值为 content-box  即让元素继续维持w3c的标准盒模型
+	border-box  ：元素高度等于内容的高度，内容包括border padding
+	
+	通过测试得出定义一个元素内容宽度，设置为border-box,padding和border不会延申宽度
+	只会向内压缩，作用显而易见，保证某块区域的宽度不变
+	
+	**内容溢出属性overflow**
+	
+	回想下如何使文字显示省略号
+	text-overflow:ellipsis,
+	overflow:hidden;
+	white-space:nowrap
+	
+	overflow:visible|hidden |scroll |auto |no-display|no-content
+	
+	**css3自由缩放属性**
+	
+	resize 该属性用来改变元素的尺寸大小，增强用户体验
+	
+	resize : none | both | horizontal |vertical |inherit
+	none:用户不能拖动元素改变尺寸
+	both:用户可以拖动元素 ，同时修改宽度或高度
+	horizontal:只能修改宽度
+	vertical :只能该高度
+	很有趣的属性
+	
+	
+	**css3外轮廓**
+	
+	outline 属性 ：主要用于在元素周围绘制一条轮廓线
+	
+	可以跟模拟border，相似，用法一样 outline :10px solid #ccc
+	
+	但border属于盒模型一部分直接影响盒模型，outline华仔一个框上面，不会影响
+	border可以单边设置
+	
+	
+	##第八章css伸缩布局盒模型##
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
    
    
    
