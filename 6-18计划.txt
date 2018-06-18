@@ -1,8 +1,8 @@
-javascript 高级程序设计 +javascript 权威指南
+﻿javascript 高级程序设计 +javascript 权威指南
 图灵程序设计丛书：数据结构与算法
 JavaScript设计模式
 深入浅出node.js
-css3图解  
+css3图解 
 图解http
 javscript精粹
 
@@ -11,5 +11,12 @@ javscript精粹
 
 上面看完，完成之前未完成网站
 
+
+6.18
+css3图解 暂告一段落
+javascript权威指南 看到3.8
+
+早上记得看英文，和论坛
+还有无聊练字
 
 

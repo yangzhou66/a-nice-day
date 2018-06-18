@@ -162,7 +162,51 @@ div div:first-of-type, div div::nth-of-type(2n+1) ,div div::nth-of-type(1) 查�
 	border可以单边设置
 	
 	
-	##第八章css伸缩布局盒模型##
+	##第八章css伸缩布局盒模型
+	
+	**布局模式**
+	css2常用布局
+	块布局：呈现文档的布局模式  block
+	行内布局：呈现文本的布局模式 inline-block
+	表格布局 ：用格子呈现2d数据的布局模式 table
+	定位布局 ：能够直接定位元素的布局模式  abosulte
+	
+	css3新增flex
+	比其他布局更具灵活性
+	flexBox不是一个属性，二是一个模块，包含多个属性
+	
+	用过很多随手记记
+	**常见属性**
+	display：flex
+	flex-direction 
+	flex-wrap  超出外围显示方式 nowrap 禁止换行  wrap 
+	flex-flow  为flex-direction 与flex-wrap 两属性集合
+	justify-content
+    align-items align-self	侧轴
+	align-content
+	
+	**flex**
+	flex:1 1 200px;
+	flex-grow 扩展比率
+	flex-shrink:收缩比率
+	flex-basis:
+	
+	初始值 flex ：0 auto  == flex:0 1 auto 
+	根据width与height属性决定元素尺寸
+	
+	**flex-order**
+	order:谁排在最前面
+	
+	##css3多列布局
+	
+	column  :用的也太少了吧
+	
+
+	
+	
+	
+	
+	
 	
 	
 	
